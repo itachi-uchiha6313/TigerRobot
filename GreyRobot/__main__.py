@@ -85,7 +85,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
     ┗► *{}* ◄┛
 
-I Am *Prince Grey* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
+I Am *Tiger* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
 *JOIN OFFICIAL* -
 [CHANNEL](t.me/pegasusUpdates) - [SUPPORT](t.me/pegasusSupportChat)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
@@ -94,8 +94,8 @@ I Am *Prince Grey* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 �
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ ᴀᴅᴅ ᴠᴇɢᴇᴛᴀ ☑",
-                            url="t.me/GreyRobot?startgroup=true"),
+                            text="☑ ᴀᴅᴅ TIGER ☑",
+                            url="t.me/Tiger_manage_Robot?startgroup=true"),
                     ],
                      [
                        InlineKeyboardButton(text="🔄 ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""),
