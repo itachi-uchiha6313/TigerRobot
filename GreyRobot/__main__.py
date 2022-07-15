@@ -118,7 +118,7 @@ HELP_STRINGS = """
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """*don't need donate I'm free for every one add your group's this my donate🙂*"""
 HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+GROUPSTART_IMG= "https://telegra.ph/file/0817989a6053657234dde.png"
 
 GREY_IMG = ( "https://telegra.ph//file/a47f16c936dbbd4165399.jpg",
                "https://telegra.ph//file/5026650d5e3f0b83c6d29.jpg",
@@ -744,7 +744,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[SUPER SAIYAN GREY IS BACK](https://telegra.ph/file/d3db0babad0d1729c5f59.jpg)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[TIGER IS BACK](https://telegra.ph/file/d3db0babad0d1729c5f59.jpg)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
