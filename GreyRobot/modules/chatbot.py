@@ -3,7 +3,6 @@ import re
 import os
 import html
 import requests
-import GreyRobot.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -20,19 +19,19 @@ from GreyRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no
 from GreyRobot import dispatcher, updater, SUPPORT_CHAT
 from GreyRobot.modules.log_channel import gloggable
 
-@run_async
+CHATS = []
+
 @user_admin_no_reply
 @gloggable
 def kukirm(update: Update, context: CallbackContext) -> str:
     query: Optional[CallbackQuery] = update.callback_query
     user: Optional[User] = update.effective_user
+    chat: Optional[Chat] = update.effective_chat
     match = re.match(r"rm_chat\((.+?)\)", query.data)
     if match:
-        user_id = match.group(1)
-        chat: Optional[Chat] = update.effective_chat
-        is_kuki = sql.rem_kuki(chat.id)
+        user_id = update.effective_user.id
+        is_kuki = CHATS.remove(chat.id)
         if is_kuki:
-            is_kuki = sql.rem_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
                 f"AI_DISABLED\n"
@@ -40,25 +39,23 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "super saiyan Grey Chatbot disable by {}.".format(mention_html(user.id, user.first_name)),
+                "Grey Chatbot disable by {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
     return ""
 
-@run_async
 @user_admin_no_reply
 @gloggable
 def kukiadd(update: Update, context: CallbackContext) -> str:
     query: Optional[CallbackQuery] = update.callback_query
+    chat: Optional[Chat] = update.effective_chat
     user: Optional[User] = update.effective_user
     match = re.match(r"add_chat\((.+?)\)", query.data)
     if match:
-        user_id = match.group(1)
-        chat: Optional[Chat] = update.effective_chat
-        is_kuki = sql.set_kuki(chat.id)
+        user_id = update.effective_chat.id
+        is_kuki = CHATS.append(chat.id)
         if is_kuki:
-            is_kuki = sql.set_kuki(user_id)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
                 f"AI_ENABLE\n"
@@ -66,13 +63,12 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "super saiyan Grey Chatbot enable by {}.".format(mention_html(user.id, user.first_name)),
+                "Grey Chatbot enable by {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
     return ""
 
-@run_async
 @user_admin
 @gloggable
 def kuki(update: Update, context: CallbackContext):
@@ -82,8 +78,7 @@ def kuki(update: Update, context: CallbackContext):
     keyboard = InlineKeyboardMarkup([[
         InlineKeyboardButton(
             text="Enable",
-            callback_data="add_chat({})")],
-       [
+            callback_data="add_chat({})"),
         InlineKeyboardButton(
             text="Disable",
             callback_data="rm_chat({})")]])
@@ -106,9 +101,9 @@ def kuki_message(context: CallbackContext, message):
 
 def chatbot(update: Update, context: CallbackContext):
     message = update.effective_message
-    chat_id = update.effective_chat.id
+    chat: Optional[Chat] = update.effective_chat
     bot = context.bot
-    is_kuki = sql.is_kuki(chat_id)
+    is_kuki = chat.id in CHATS
     if not is_kuki:
         return
 	
@@ -116,45 +111,45 @@ def chatbot(update: Update, context: CallbackContext):
         if not kuki_message(context, message):
             return
         Message = message.text
-        bot.send_chat_action(chat_id, action="typing")
-        kukiurl = requests.get('https://www.kukiapi.xyz/api/apikey=KUKIg76Fg4EIo/Cutiepii/@Awesome_RJ/message='+Message)
+        bot.send_chat_action(chat_id=chat.id, action="typing")
+        kukiurl = requests.get('http://Kukiapi.xyz/api/apikey=5145883564-KUKISf4kHn2oT0/Miku/@h0daka/message='+Message)
         Kuki = json.loads(kukiurl.text)
         kuki = Kuki['reply']
         sleep(0.3)
         message.reply_text(kuki, timeout=60)
 
 def list_all_chats(update: Update, context: CallbackContext):
-    chats = sql.get_all_kuki_chats()
-    text = "<b>Grey Enabled Chats</b>\n"
-    for chat in chats:
+    text = "<b>Miku Chatbot Enabled Chats</b>\n"
+    for chat in CHATS:
         try:
             x = context.bot.get_chat(int(*chat))
             name = x.title or x.first_name
             text += f"• <code>{name}</code>\n"
         except (BadRequest, Unauthorized):
-            sql.rem_kuki(*chat)
+            CHATS.remove(*chat)
         except RetryAfter as e:
             sleep(e.retry_after)
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 __help__ = """
+Chatbot utilizes the Kuki's api which allows Miku to talk and provide a more interactive group chat experience.
+
 *Admins only Commands*:
-  ➢ `/Chatbot`*:* Shows chatbot control panel
-  
-*Powered by ItelAi*
+  ➢ `/Chatbot`*:* Shows chatbot control panel.
+
 """
 
-__mod_name__ = "🤖ChatBot"
+__mod_name__ = "ChatBot"
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", kuki )
-ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat" )
-RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat" )
+CHATBOTK_HANDLER = CommandHandler("chatbot", kuki, run_async=True)
+ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat", run_async=True)
+RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat", run_async=True)
 CHATBOT_HANDLER = MessageHandler(
     Filters.text & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!")
-                    & ~Filters.regex(r"^\/")), chatbot, )
+                    & ~Filters.regex(r"^\/")), chatbot, run_async=True)
 LIST_ALL_CHATS_HANDLER = CommandHandler(
-    "allchats", list_all_chats, filters=CustomFilters.dev_filter, )
+    "allchats", list_all_chats, filters=CustomFilters.dev_filter, run_async=True)
 
 dispatcher.add_handler(ADD_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOTK_HANDLER)
