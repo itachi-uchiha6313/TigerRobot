@@ -22,17 +22,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": "5554698239:AAEkpw46onAvF3ybjscHJ-Vr4jgf6q1Fx1c"
+         "value": "5311353015:AAFr6uJ6FQhqSxZRwMl3Fl-JHU7oGxVbTjQ"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "9949701"
+         "value": "19524556"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "47013db2802464f3d2c09593fb0dc880"
+         "value": "c205cab630552ff39a0654f6b074dd7a"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -42,11 +42,11 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5102929777"
+         "value": "5312465522"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "luna_fulgur"
+         "value": "@BackupBoss"
       },
       "INFOPIC": {
          "description": "userinfo picture Show In Info.",
@@ -75,7 +75,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": ""
+         "value": "5015417782"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -89,12 +89,12 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1491497760"
+         "value": "5015417782"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1491497760"
+         "value": "5015417782"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
