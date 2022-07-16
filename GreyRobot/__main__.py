@@ -377,7 +377,7 @@ def grey_about_callback(update, context):
     query = update.callback_query
     if query.data == "grey_":
         query.message.edit_caption(
-            "๏ I'm *Grey*, a powerful group management bot built to help you manage your group easily."
+            "๏ I'm *Tiger*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -440,8 +440,8 @@ def grey_about_callback(update, context):
         )
     elif query.data == "grey_support":
         query.message.edit_caption(
-            "*๏ Grey support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Grey.",
+            "*๏ Tiger support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on Tiger.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -790,7 +790,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Grey is now alive and functioning")
+        LOGGER.info("Tiger is now alive and functioning")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
