@@ -87,7 +87,7 @@ PM_START_TEXT = """
 
 I Am *Tiger* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
 *JOIN OFFICIAL* -
-[CHANNEL](t.me/pegasusUpdates) - [SUPPORT](t.me/pegasusSupportChat)\n
+[CHANNEL](t.me/Bots_Officials) - [SUPPORT](t.me/TigerChattingGroup)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
