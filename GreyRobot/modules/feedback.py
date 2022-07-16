@@ -16,11 +16,11 @@ async def feedback(e):
     user_name = e.sender.first_name
     mention = "[" + user_name + "](tg://user?id=" + str(user_id) + ")"
     GREY = (
-        "https://telegra.ph/file/bc258c88be230d824d687.jpg",
-        "https://telegra.ph/file/6ddb38a0a85a18500d49a.jpg",
-        "https://telegra.ph/file/7fd1f54fc821b3f8a15a0.jpg",
-        "https://telegra.ph/file/ec11e66958ccebb5f96a8.jpg",
-        "https://telegra.ph/file/f5e5a31be9ba7ea30f9d0.jpg",
+        "https://telegra.ph/file/3a82e93893021e47d7d97.png",
+        "https://telegra.ph/file/e7927a3a91041d9c533c9.png",
+        "https://telegra.ph/file/4b46f79d220ff4e3951cc.png",
+        "https://telegra.ph/file/497ad5ab369111b7a925f.png",
+        "https://telegra.ph/file/a13cf7210472f23332bd6.png",
     )
     NATFEED = ("https://telegra.ph/file/2dd04f407b16bc2cfdf76.jpg",)
     BUTTON = [[Button.url("View Feedback ✨", f"https://t.me/{SUPPORT_CHAT}")]]

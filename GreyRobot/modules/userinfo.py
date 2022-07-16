@@ -42,7 +42,7 @@ from GreyRobot.modules.helper_funcs.chat_status import sudo_plus
 from GreyRobot.modules.helper_funcs.extraction import extract_user
 from GreyRobot import telethn
 
-GREY ="http://telegra.ph/file/a1c938cf6e2b271e81a9a.jpg"
+GREY ="https://telegra.ph/file/d177bfbe0eec22d7dc6f1.png"
 
 def no_by_per(totalhp, percentage):
     """

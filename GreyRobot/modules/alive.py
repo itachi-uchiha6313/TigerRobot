@@ -11,7 +11,7 @@ from telethon import __version__ as telever
 from GreyRobot import dispatcher, SUPPORT_CHAT, UPDATES_CHANNEL
 from GreyRobot.modules.disable import DisableAbleCommandHandler
 
-INFO_IMG = "https://telegra.ph/file/7ef6a2f2b722d371d5b79.mp4"
+INFO_IMG = "https://telegra.ph/file/dba4e733fb454bdc1a4f6.png"
 
 
 #sleep how many times after each edit in 'hack' 

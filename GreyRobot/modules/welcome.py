@@ -37,8 +37,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-OWNER_IMG= "https://telegra.ph/file/c05d10b9508e92e9560ec.jpg"
-GREY_ADD_IMG="https://telegra.ph/file/a8f7994a0722515648e15.jpg"
+OWNER_IMG= "https://telegra.ph/file/416465fc94b78e4508702.png"
+GREY_ADD_IMG="https://telegra.ph/file/81f62cac212340cab2181.png"
 
 VALID_WELCOME_FORMATTERS = [
     "first",

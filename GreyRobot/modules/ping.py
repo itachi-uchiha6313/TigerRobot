@@ -9,7 +9,7 @@ from GreyRobot import StartTime, dispatcher
 from GreyRobot.modules.helper_funcs.chat_status import sudo_plus
 from GreyRobot.modules.disable import DisableAbleCommandHandler
 
-PING_IMG="https://telegra.ph/file/7f09ce39158cf595779b1.jpg"
+PING_IMG="https://telegra.ph/file/6e03b9a33c7dfc4859900.png"
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
