@@ -18,6 +18,7 @@ zalgo-text
 geopy
 psutil
 jikanpy
+speedtest-cli
 coffeehouse
 regex
 bleach
@@ -53,6 +54,7 @@ CurrencyConverter
 googletrans==4.0.0-rc1
 google_trans_new
 pyrate-limiter
+nekos.py
 tgcrypto
 python-arq==6.0.3
 hachoir
