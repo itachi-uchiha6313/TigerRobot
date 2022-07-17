@@ -43,7 +43,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - Image-Editorbot - module
 
 
-## REPO MADE BY [𓆩🍁𓆪【𓆩𝗧𝗜𝗚𝗘𝗥𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ͫ 𝗦angram¤๋͜](t.me/BackupBoss) | `ᴏᴡɴᴇʀ`
+## REPO MADE BY [𓆩🍁𓆪【𓆩𝗧𝗜𝗚𝗘𝗥𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ͫ 𝗦angram¤๋͜](telegram.me/BackupBoss) | `ᴏᴡɴᴇʀ`
 
 
 # 🗡️ Join our Support & Updates
