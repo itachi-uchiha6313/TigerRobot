@@ -43,9 +43,6 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - Image-Editorbot - module
 
 
-## REPO MADE BY [a](telegram.me/BackupBoss) | `ᴏᴡɴᴇʀ`
-
-
 # 🗡️ Join our Support & Updates
 <a href="https://t.me/PegasusSupportchat"><img src="https://img.shields.io/badge/Support 🎉-Telegram%20Group-blue.svg?logo=telegram"></a>
 <a href="https://t.me/PegasusUpdates"><img src="https://img.shields.io/badge/Updates 💥-Telegram%20Group-blue.svg?logo=telegram"></a>
