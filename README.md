@@ -1,4 +1,4 @@
-<h1 align="center"><b>Prince Grey</b></h1>
+<h1 align="center"><bTiger</b></h1>
 
 <h4 align="center">A Advanced Powerful, Smart And Intelligent Group Management Bot With New And Powerful Features <br> ... Written with Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -6,19 +6,19 @@
   <a href="https://github.com/W2HGalaxy-OP/SuzieRoBot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/GreyRobot"><img src="http://telegr.ph//file/9e23289b428842bc0d22c.jpg" width="600"></a></p>
+<p align="center"><a href="https://t.me/Tiger_manage_bot"><img src="http://telegr.ph//file/9e23289b428842bc0d22c.jpg" width="600"></a></p>
 
 <p align="center">
-    <a href="https://github.com/Ctzfamily/GreyRobot"> <img src="https://img.shields.io/github/repo-size/Ctzfamily/GreyRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Ctzfamily/GreyRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/Ctzfamily/GreyRobot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Ctzfamily/Ctzfamily/issues"> <img src="https://img.shields.io/github/issues/Ctzfamily/GreyRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Itachi-uchiha6313/TigerRobot"> <img src="https://img.shields.io/github/repo-size/Itachi-uchiha6313/TigerRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Ctzfamily/GreyRobot/commits/prince"> <img src="https://img.shields.io/github/last-commit/Itachi-uchiha6313/TigerRobot?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/Ctzfamily/Ctzfamily/issues"> <img src="https://img.shields.io/github/issues/Itachi-uchiha6313/TigerRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 
 Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for supports.
 
-## Available on Telegram as [@GreyRobot](https://t.me/GreyRobot)
+## Available on Telegram as [@Tiger ROBOT](https://telegram.me/Tiger_manage_bot)
 
 ## ✨ Deploy to Heroku ✨
 
@@ -32,7 +32,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - `API_ID`| `API_HARISH`|
 - `TOKEN`| ɴᴏᴡ ʙᴏᴛ ʀᴜɴs ʀᴀɪʟᴡᴀʏ!
 
-   [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Ctzfamily/GreyRobot)
+   [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itachi-uchiha6313/TigerRobot)
 
 
 ## `SQLALCHEMY_DATABASE_URI` | ᴍᴏsᴛ ᴜsᴇ ᴏʟᴅ `ᴅʙ_ᴜʀʟ`
@@ -43,7 +43,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - Image-Editorbot - module
 
 
-## REPO MADE BY [Nandha (:](t.me/ctzfamily) | `ᴏᴡɴᴇʀ`
+## REPO MADE BY [𓆩🍁𓆪【𓆩𝗧𝗜𝗚𝗘𝗥𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ͫ 𝗦angram¤๋͜](t.me/BackupBoss) | `ᴏᴡɴᴇʀ`
 
 
 # 🗡️ Join our Support & Updates
