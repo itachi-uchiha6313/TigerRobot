@@ -29,7 +29,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 
 ## Edit A GreyRobot/Config.py in
 - `OWNER_ID`|`OWNER_USERNAME`
-- `API_ID`| `API_HARISH`|
+- `API_ID`| `API_HASH`|
 - `TOKEN`| ɴᴏᴡ ʙᴏᴛ ʀᴜɴs ʀᴀɪʟᴡᴀʏ!
 
    [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Itachi-uchiha6313/TigerRobot)
@@ -43,7 +43,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - Image-Editorbot - module
 
 
-## REPO MADE BY [𓆩🍁𓆪【𓆩𝗧𝗜𝗚𝗘𝗥𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ͫ 𝗦angram¤๋͜](telegram.me/BackupBoss) | `ᴏᴡɴᴇʀ`
+## REPO MADE BY [a](telegram.me/BackupBoss) | `ᴏᴡɴᴇʀ`
 
 
 # 🗡️ Join our Support & Updates
