@@ -15,9 +15,6 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-
-Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for supports.
-
 ## Available on Telegram as [@Tiger ROBOT](https://telegram.me/Tiger_manage_bot)
 
 ## ✨ Deploy to Heroku ✨
@@ -39,8 +36,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 
 
 ## Special Credits
-- Kurumibot - base
-- Image-Editorbot - module
+- VegetaRobot - base
 
 
 # 🗡️ Join our Support & Updates
